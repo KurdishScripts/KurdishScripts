@@ -58,7 +58,7 @@ ${ORANGE} ██║██╔══██╗  ╚██╔╝  ██║   ██
 ${ORANGE} ██║██║  ██║   ██║   ╚██████╔╝███████╗╚██████╔╝
 ${ORANGE} ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝ ╚═════╝
 ${ORANGE}                                                                
-${ORANGE} ------ Co-founder, CEO of iran yousec -------●	                
+${ORANGE} ------ Co-founder, CEO of KURDISTAN yousec -------●	                
 	EOF
 }
 ## Small Banner
@@ -128,7 +128,7 @@ install_ngrok() {
 	if [[ -e ".server/ngrok" ]]; then
 		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Ngrok already installed."
 	else
-		echo -e "\n${GREEN}[${WHITE}Plz Wait${GREEN}]${CYAN} PubgHack Installing..."${WHITE}
+		echo -e "\n${GREEN}[${WHITE}Plz Wait${GREEN}]${CYAN} iRyuzo Installing..."${WHITE}
 		arch=`uname -m`
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
 			download_ngrok 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip' 'ngrok'
