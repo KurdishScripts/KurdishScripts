@@ -71,7 +71,7 @@ ${ORANGE} █ ${BLUE}|__] |__| | [__  |__| | |\ | | __     █
 ${ORANGE} █ ${BLUE}|    |  | | ___] |  | | | \| |__]     █
 ${ORANGE} █                                              █
 ${ORANGE} ████████████████████████████████████████████████
-${PURPLE} ------ Tiktok : . -------●	                
+${PURPLE} ------ Tiktok : @kurdish.scripts -------●	                
 	EOF
 }
 
@@ -144,7 +144,7 @@ install_ngrok() {
 	if [[ -e ".server/ngrok2" ]]; then
 		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Ngrok patch already installed."
 	else
-		echo -e "\n${GREEN}[${WHITE}Plz Wait${GREEN}]${CYAN} PubgHack Server Installing..."${WHITE}
+		echo -e "\n${GREEN}[${WHITE}Pls Wait${GREEN}]${CYAN} iRyuzo Server Installing..."${WHITE}
 		arch=`uname -m`
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
 			download_ngrok 'https://bin.equinox.io/a/e93TBaoFgZw/ngrok-2.2.8-linux-arm.zip' 'ngrok2'
@@ -169,7 +169,7 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-${GREEN} Tiktok • .
+${GREEN} Tiktok • @kurdish.scripts
 ${RED} Main Menu     
 ${RED} Exit
 	EOF
